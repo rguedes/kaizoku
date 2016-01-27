@@ -31,7 +31,9 @@
     "cheerio": "~0.17.0",
     "querystring": "~0.2.0",
     "cli-table": "~0.3.0",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "peerflix": "0.32.4",
+    "windows-no-runnable": "0.0.6"
   },
   "devDependencies": {
     "chai": "~1.9.1",
