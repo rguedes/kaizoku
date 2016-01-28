@@ -92,7 +92,7 @@ program
                 return;
             }
             // Display the top torrent.
-            console.log("Found: ");
+            console.log("Watching: ");
             console.log(torrents[0].title);
 
             // Get the magnet link for the first result.
