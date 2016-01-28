@@ -92,8 +92,7 @@ program
                 return;
             }
             // Display the top torrent.
-            console.log("Watching: ");
-            console.log(torrents[0].title);
+            console.log("Watching: "+torrents[0].title);
 
             // Get the magnet link for the first result.
             // Assumming the first result has the most seeds.
