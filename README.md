@@ -1,15 +1,15 @@
 Kaizoku
 ===
-A CLI for the Pirate Bay that can search for torrent and automatically add it to your torrent client.
+A CLI for the Pirate Bay that can search for torrent and automatically add it to your torrent client or stream to VLC.
 
-[![Build Status](https://travis-ci.org/arshad/kaizoku.svg?branch=master)](https://travis-ci.org/arshad/kaizoku)
+[![Build Status](https://travis-ci.org/rguedes/kaizoku.svg?branch=master)](https://travis-ci.org/rguedes/kaizoku)
 
-![alt tag](https://raw.githubusercontent.com/arshad/kaizoku/master/screenshot.png)
+![alt tag](https://raw.githubusercontent.com/rguedes/kaizoku/master/screenshot.png)
 
 Installation
 --------------
 
-    $ npm install kaizoku -g
+    $ npm install rguedes/kaizoku -g
 
 Usage
 --------------
