@@ -77,6 +77,7 @@ program
     .command('stream [keywords]')
     .alias('st')
     .option("-c, --category <category>", 'The category to search in.')
+    .option("-l, --subtitle <sid>", 'Sid From Legendas-zone.')
     .description('Use this command to quickly stream a torrent.')
     .action(function (keywords, options) {
         if (!keywords) {
@@ -85,6 +86,9 @@ program
         }
 
         kaizoku.setURL(program.url);
+        if(options.subtitle != "")
+            kaizoku.login(options.subtitle, kaizoku.downloadSubtitle);
+
         kaizoku.search(keywords, options.category, function (torrents) {
 
             if(torrents.length == 0){
@@ -150,6 +154,14 @@ program
         }
 
         console.log(table.toString());
+    });
+
+
+program
+    .command('subtitles')
+    .description('login.')
+    .action(function (options) {
+        var categories = kaizoku.login();
     });
 
 /**
